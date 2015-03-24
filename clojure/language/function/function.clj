@@ -12,8 +12,8 @@
     (println arg1 args))
 (fun1 2 3 4) ;-> 2 (3 4)
 
-; 函数定义多个参数参数列表及对应的方法体
 
+; 函数定义多个参数参数列表及对应的方法体
 (defn fun2 
     ([] (println "hello"))
     ([arg1] (println arg1))
@@ -39,3 +39,21 @@
 (def my-fn (fn [param1] (str "param is " param1)))
 (println (my-fn "111"))
 (println (my-fn "222"))
+
+
+;; 函数作为参数
+(defn callback [arg1 arg2] (+ arg1 arg2))
+
+(defn caller [cb arg1] 
+    (cb (+ 1 arg1) (+ 2 arg1)))
+(println (caller callback 1)) ;-> 5
+
+
+;; 函数作为返回值
+(defn returnfun [] 
+    (defn returnedfun [arg1] (+ arg1 1))
+    )
+(def ret (returnfun))
+(println (ret 1)) ;-> 2
+
+
