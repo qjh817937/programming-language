@@ -43,3 +43,8 @@ compile
 run1
 run2
 run3
+
+# repl: 
+#   Usage: java -cp clojure.jar clojure.main [init-opt*] [main-opt] [arg*]
+#       With no options or args, runs an interactive Read-Eval-Print Loop
+# java -cp ./clojure/clojure-1.2.0-master-SNAPSHOT.jar clojure.main
