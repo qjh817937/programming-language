@@ -1,0 +1,10 @@
+2013-01-15 14:13:24 INFO  : startting server(0xbc24de0) by `conf/client.conf'...
+2013-01-15 14:13:24 INFO  : server(0xbc24de0) has been startted!
+2013-01-15 14:13:24 INFO  : client hostname dev136002.sqa.cm4.tbsite.net
+2013-01-15 14:13:24 DEBUG  : client ip[0] = 10.232.136.2
+2013-01-15 14:13:24 INFO  : MsgProcModule client ip 10.232.136.2, [../client/MsgProcModule.cpp:111]
+2013-01-15 14:13:25 DEBUG  : funcListen: GetNodeChildren from [/machine/nodes/10.232.136.2], [../client/MsgProcModule.cpp:291]
+2013-01-15 14:13:25 INFO  : MsgProcModule create 1 listenThread, 10 recvThread, 10 workerThread, 1 sendThread, [../client/MsgProcModule.cpp:196]
+2013-01-15 14:13:26 DEBUG  : funcListen: GetNodeChildren from [/machine/nodes/10.232.136.2], [../client/MsgProcModule.cpp:291]
+2013-01-15 14:13:27 DEBUG  : funcListen: GetNodeChildren from [/machine/nodes/10.232.136.2], [../client/MsgProcModule.cpp:291]
+2013-01-15 14:13:28 DEBUG  : funcListen: GetNodeChildren from [/machine/nodes/10.232.136.2], [../client/MsgProcModule.cpp:291]

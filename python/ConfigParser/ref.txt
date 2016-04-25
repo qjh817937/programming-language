@@ -1,0 +1,1 @@
+http://docs.python.org/release/2.4.3/lib/module-ConfigParser.html

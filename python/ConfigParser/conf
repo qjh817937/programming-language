@@ -1,0 +1,7 @@
+[main]
+
+key1=111
+key2=%(key1)sfksadfas;
+key3=333
+key4=444
+key5=%(key4)s11111
